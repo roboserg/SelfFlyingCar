@@ -10,11 +10,11 @@ public class JetAgent : Agent
 {
     public bool isQuadMode = false;
     public Transform target;
-    private Vector3 _startingPosition;
     [SerializeField] private float reward;
     
     Rigidbody _rb;
     JetController _controller;
+    Vector3 _startingPosition;
     
     void Awake () 
     {
@@ -31,7 +31,6 @@ public class JetAgent : Agent
         
         _isLanded = false;
         _isGotReward = false;
-        _landingStepCount = 0;
         _distScaled = 1;
         _relVelScaled = 1;
     }
@@ -86,9 +85,9 @@ public class JetAgent : Agent
     private void MyFixedUpdate()
     {
         AddReward(0.001f);
-        //AddReward(-0.00001f);
         var facingForwardDot = Vector3.Dot(Vector3.up, transform.up);
-        //AddReward(facingForwardDot/1000);
+        AddReward(facingForwardDot/1000);
+        //AddReward(-0.00001f);
         
         if (_isLanded)
         {
@@ -111,7 +110,6 @@ public class JetAgent : Agent
     private bool _isLanded = false;
     private bool _isGotReward = false;
     private float _distScaled, _relVelScaled;
-    private int _landingStepCount;
     
     private void OnCollisionEnter(Collision other)
     {
@@ -119,7 +117,6 @@ public class JetAgent : Agent
 
         if (_isLanded) return;
         _isLanded = true;
-        _landingStepCount = StepCount;
         
         Debug.Log(StepCount +  " OnCollisionEnter");
             
@@ -169,11 +166,14 @@ public class JetAgent : Agent
         actionsOut[2] = Mathf.Abs(Input.GetAxis("RT"));
         actionsOut[3] = Mathf.Abs(Input.GetAxis("RT"));
 
-        //actionsOut[4] = Input.GetAxis("Vertical");
-        //actionsOut[5] = Input.GetAxis("Vertical");
-        //actionsOut[6]  = Input.GetAxis("Vertical");
-        //actionsOut[7]  = Input.GetAxis("Vertical");
-        
+        if (isQuadMode == false)
+        {
+            actionsOut[4] = Input.GetAxis("Vertical");
+            actionsOut[5] = Input.GetAxis("Vertical");
+            actionsOut[6] = Input.GetAxis("Vertical");
+            actionsOut[7] = Input.GetAxis("Vertical");
+        }
+
         return actionsOut;
     }
     
@@ -195,28 +195,3 @@ public class JetAgent : Agent
             EndEpisode();
     }
 }
-
-#region old rewards
-
-//float inverseNormalizedDistance = 1f - transform.position.y / 100;
-//float inverseNormalizedHeight = 1f - Mathf.Clamp(Mathf.Pow(transform.position.y / 200, 0.4f), 0, 1);
-//AddReward(inverseNormalizedHeight/100);
-
-//var dirToTarget = target.position - transform.position;
-//var movingTowardsDot = Vector3.Dot(_rb.velocity, dirToTarget.normalized);
-//AddReward(0.0002f * movingTowardsDot);
-
-/*
-/// Reward facing target & Penalize facing away from target
-var facingDot = Vector3.Dot(dirToTarget.normalized, transform.forward);
-AddReward(0.002f * facingDot);
-
-var forwardVelocity = Vector3.Cross(_rb.velocity, transform.forward);
-var forwardVelocityDot = Vector3.Dot(forwardVelocity, dirToTarget.normalized);
-
-var localVelocity = transform.InverseTransformDirection(_rb.velocity);
-var forwardSpeed = localVelocity.z;
-AddReward(forwardSpeed/100);   
-*/
-
-#endregion
