@@ -1,12 +1,15 @@
 # SelfFlyingCar
  Unity ML agents reinforcement learning environment for a self flying car.
-
+ 
 ![](https://github.com/roboserg/SelfFlyingCar/blob/master/Jet.png)
 
+### Demo
+A demo for Windows with the pretrained RL agent can be downloaded [here](https://github.com/roboserg/SelfFlyingCar/raw/master/Build.rar)
+
 ### Features:
-* Ready to train reinforcement learning agent
-* Four rotating engines (8 agent actions)
-* Custom 3D model of a flying car
+* Ready to train reinforcement learning agent (agent actions, agent observations)
+* Self flying car physics and controls with four rotating engines (8 agent actions)
+* [Custom 3D model](https://github.com/roboserg/SelfFlyingCar/blob/master/final_reder.png) of a flying car
 
 ### Videos:
 ![](https://github.com/roboserg/SelfFlyingCar/blob/master/landing.gif)
