@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07c9c5a0-6500-4da6-a68d-df357d460f2a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JetAgent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JetController.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.5.0/Runtime/Behaviours/CinemachineVirtualCamera.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/SphereObject.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/9e/8ffda433/Quaternion.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JetVFX.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/48050808-8AEE-40CA-B708-18FF164A29D5/e7/ea3958b9/Mathf.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/TestAgent2D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/ml-agents-0.15.1/com.unity.ml-agents/Runtime/Inference/TensorGenerator.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/MyCamera.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://F:/ml-agents-0.15.1/com.unity.ml-agents/Runtime/Agent.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/JetEngine.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://O:/HoverRacer-master/HoverRacer-master/HoverRacer_Start/Assets/Scripts/VehicleAVFX.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/Rocket1D.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Tests/AgentQuad.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://I:/Unity Projects/!Assets/Highroad Engine v1.2/Assets/HighroadEngine/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.barracuda@0.6.1-preview/Barracuda/Core/Tensor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/AddRandomForce.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Test/TestAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/Rocket1D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/TestAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/TestAgent2D.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/AddRandomForce.cs" />
+        <option value="$PROJECT_DIR$/Assets/Tests/AgentQuad.cs" />
+        <option value="$PROJECT_DIR$/Assets/JetAgent.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JetVFX.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/SphereObject.cs" />
+        <option value="I:/Unity Projects/!Assets/Highroad Engine v1.2/Assets/HighroadEngine/PostProcessing/Editor/PropertyDrawers/MinDrawer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/MyCamera.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JetController.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JetEngine.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JetAgent.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1b5LZQ7aMUf8Y4QbbJrTjMHYEZn" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="Rider.SolutionExplorerActivator" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07c9c5a0-6500-4da6-a68d-df357d460f2a" name="Default Changelist" comment="" />
+      <created>1587917062824</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587917062824</updated>
+      <workItem from="1587917064177" duration="4363000" />
+      <workItem from="1587994665631" duration="2560000" />
+      <workItem from="1588000015709" duration="732000" />
+      <workItem from="1588005980470" duration="14358000" />
+      <workItem from="1588074862250" duration="13596000" />
+      <workItem from="1588105006123" duration="39239000" />
+      <workItem from="1588286444404" duration="3328000" />
+      <workItem from="1588343641662" duration="20964000" />
+      <workItem from="1588422551345" duration="73791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="WindowStateProjectService">
+    <state x="-1335" y="193" width="672" height="676" key="search.everywhere.popup" timestamp="1588352390354">
+      <screen x="-1920" y="0" width="1858" height="1080" />
+    </state>
+    <state x="-1335" y="193" width="672" height="676" key="search.everywhere.popup/0.0.1920.1080/-1920.0.1858.1080@-1920.0.1858.1080" timestamp="1588352390354" />
+  </component>
+</project>
