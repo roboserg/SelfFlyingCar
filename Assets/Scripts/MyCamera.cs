@@ -7,6 +7,7 @@ public class MyCamera : MonoBehaviour
 {
     private CinemachineVirtualCamera _cam;
     private CinemachineFramingTransposer _transposer;
+    private CinemachineOrbitalTransposer _orbitalTransposer;
     private float _cameraDistance;
     
     void Start()

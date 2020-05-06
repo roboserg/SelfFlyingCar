@@ -21,6 +21,7 @@ public class JetAgent : Agent
         _rb = GetComponent<Rigidbody>();
         _startingPosition = transform.position;
         _controller = GetComponent<JetController>();
+        Cursor.visible = false;
     }
     
     public override void OnEpisodeBegin()
@@ -84,7 +85,7 @@ public class JetAgent : Agent
     
     private void MyFixedUpdate()
     {
-        AddReward(0.001f);
+        //AddReward(0.001f);
         var facingForwardDot = Vector3.Dot(Vector3.up, transform.up);
         AddReward(facingForwardDot/1000);
         //AddReward(-0.00001f);
@@ -193,5 +194,8 @@ public class JetAgent : Agent
     {
         if(Input.GetKeyDown(KeyCode.Backspace))
             EndEpisode();
+        
+        if(Input.GetKey(KeyCode.Escape))
+            Application.Quit();
     }
 }
